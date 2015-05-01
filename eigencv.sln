@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "eigencv", "eigencv\eigencv.vcxproj", "{A88FA986-6A79-4188-A860-0A3236390C59}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{E192E320-59C0-4767-A291-FA59CB3BE6D7}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "eigencv.test.unit", "eigencv.test.unit\eigencv.test.unit.vcxproj", "{54943A9D-FFCD-4061-9CAF-2FD84025BDD1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "eigencv.test.console", "eigencv.test.console\eigencv.test.console.vcxproj", "{41B19D31-B8E8-4B33-870E-F627E0FFA881}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A88FA986-6A79-4188-A860-0A3236390C59}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A88FA986-6A79-4188-A860-0A3236390C59}.Debug|Win32.Build.0 = Debug|Win32
+		{A88FA986-6A79-4188-A860-0A3236390C59}.Release|Win32.ActiveCfg = Release|Win32
+		{A88FA986-6A79-4188-A860-0A3236390C59}.Release|Win32.Build.0 = Release|Win32
+		{54943A9D-FFCD-4061-9CAF-2FD84025BDD1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{54943A9D-FFCD-4061-9CAF-2FD84025BDD1}.Debug|Win32.Build.0 = Debug|Win32
+		{54943A9D-FFCD-4061-9CAF-2FD84025BDD1}.Release|Win32.ActiveCfg = Release|Win32
+		{54943A9D-FFCD-4061-9CAF-2FD84025BDD1}.Release|Win32.Build.0 = Release|Win32
+		{41B19D31-B8E8-4B33-870E-F627E0FFA881}.Debug|Win32.ActiveCfg = Debug|Win32
+		{41B19D31-B8E8-4B33-870E-F627E0FFA881}.Debug|Win32.Build.0 = Debug|Win32
+		{41B19D31-B8E8-4B33-870E-F627E0FFA881}.Release|Win32.ActiveCfg = Release|Win32
+		{41B19D31-B8E8-4B33-870E-F627E0FFA881}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
